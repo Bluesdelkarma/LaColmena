@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+h1{
+    color: #7149C6;
+    font-size: 2.2em;
+}
+
+h2{
+    color: #FC2947;
+    font-size: 1.8em;
+}
+
+.carrusel-item{
+    color: aliceblue;
+    font-size: medium;
+}
+
+.products-home{
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.products-home figure{
+    width: 30%;
+    border: solid 1px pink;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.products-home figure figcaption{
+    color: #FC2947;
+    font-size: 1.4em;
+}
+
+.products-home figure button{
+    border: none;
+    background-color: #FE6244;
+    padding: 6px;
+    color: white;
+    border-radius: 4px;
+
+}
+
+p{
+    font-size: 1.2em;
+    line-height: 1.3em;
+    color: #7149C6;
+}
+
+.box-top{
+    padding: 4px 0;
+    text-align: center;
+    color: #7149C6;
+    font-size: 0.9em;
+}
+
+    .text-vio{
+    color: #7149C6;
+    }
+
+    .text-center{
+    text-align: center;
+    }
+
+    .text-left{
+    text-align: left;
+    }
+
+    .text-right{
+    text-align: right;
+    }
+
+    .botonera{
+    background-color: #7149C6;
+    }
+
+    .botonera img{
+    width: 150 px;
+    }
+    .botonera a{
+        color: aliceblue;
+    }
+    .card-title{
+        color: #7149C6;
+        text-align: center;
+    }
+    .bg-white{
+        background-color: #fdfdff;
+    }
+    .bg-vio{
+        background-color: #7149C6;
+        color:aliceblue;
+    }
+
+    footer{
+    background-color: #FE6244;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    footer ul{
+    list-style: none;
+    display: inline-block;
+    padding: 6px 30px;
+    width: 100%;
+}
+
+footer ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
