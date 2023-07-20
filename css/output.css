@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  color: rgb(124, 40, 203);
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px 0;
+}
+
+h2 {
+  font-size: 2em;
+}
+h3{
+  font-size: 1.8em;
+  color: white;
+}
+h4{
+  font-size: 1em;
+  color: white;
+}
+
+p {
+  font-size: 1em;
+  line-height: auto;
+  font-weight: 300;
+}
+
+.box-top {
+  padding: 4px 0;
+  text-align: center;
+  color: rgb(124, 40, 203);
+  font-size: 1em;
+}
+
+.text-vio {
+  color: rgb(124, 40, 203);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.botonera {
+  background-color: rgb(124, 40, 203);
+}
+.botonera img {
+  width: 120px;
+}
+.botonera a {
+  color: white;
+}
+
+.card-title {
+  color: rgb(124, 40, 203);
+  text-align: center;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-vio {
+  background-color: rgb(124, 40, 203);
+  color: white;
+}
+.animate{
+  animation-name: animateDiv;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 4s;
+}
+@keyframes textAlpha{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+h3{
+  animation-name:textAlpha;
+  animation-duration: 4s;
+}
+footer {
+  background: rgb(250,23,69);
+  background: linear-gradient(90deg, rgba(250,23,69,1) 0%, rgba(249,104,26,1) 35%, rgba(255,239,0,1) 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer ul {
+  list-style: none;
+  display: inline-block;
+  padding: 6px 30px;
+  width: 100%;
+}
+footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+
+.botonera {
+  background-color: rgb(124, 40, 203);
+}
+.botonera a {
+  color: white;
+}
+.botonera img {
+  width: 150px;
+}
+
+.carrusel-item {
+  color: white;
+  font-size: 1em;
+}
+
+.products-home {
+  padding: 20px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.products-home figure {
+  width: auto;
+  border: solid 1px rgb(124, 40, 203);
+  border-radius: 3px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.products-home figure figcaption {
+  color: rgb 253, 46, 70;
+  font-size: 300;
+}
+.products-home figure button {
+  border: none;
+  background-color: rgb 253, 46, 70;
+  padding: 6px;
+  color: white;
+  border-radius: 4px;
+}
+.products-home figure button:hover {
+  cursor: pointer;
+  background-color: rgb(124, 40, 203);
+}
+
+/*# sourceMappingURL=output.css.map */

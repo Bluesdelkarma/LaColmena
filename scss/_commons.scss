@@ -1,0 +1,97 @@
+//selectores comunes a todo el proyecto
+*{
+    font-family: $mainFont;
+    box-sizing: border-box;
+}
+
+h1,h2{
+    color: $mainColor;
+}
+
+h1{
+    font-size: $textXl;
+    margin-bottom: 10px 0;
+}
+h2{
+    font-size: $textLg;
+}
+h3{
+    color: $white;
+    font-size: $textLg;
+}
+h4{
+    color:$white;
+    font-size: $textMd;
+}
+p{
+    font-size: $textMd;
+    line-height: $textLight;
+    font-weight: $textLight;
+}
+.box-top{
+    padding: 4px 0;
+    text-align: center;
+    color: $mainColor;
+    font-size: $textMd;
+}
+
+    .text-vio{
+    color: $mainColor;
+    }
+
+    .text-center{
+    text-align: center;
+    }
+
+    .text-left{
+    text-align: left;
+    }
+
+    .text-right{
+    text-align: right;
+    }
+
+    .botonera{
+    background-color: $mainColor;
+    img{
+        width: 120px;
+    }
+    a{
+        color: $white; 
+    }
+        }
+
+    .card-title{
+        color: $mainColor;
+        text-align: center;
+    }
+    .bg-white{
+        background-color: $white;
+    }
+    .bg-vio{
+        background-color: $mainColor;
+        color: $white;
+    }
+
+    footer{
+        background-color: $secondaryColor;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+            ul{
+            list-style: none;
+        display: inline-block;
+        padding: 6px 30px;
+        width: 100%;
+                li{
+            display: inline-block;
+        margin-right: 10px;
+                    a{
+            text-decoration: none;
+            color: $white;
+            font-size: $textMd;
+                        }
+                    }
+            }
+        }

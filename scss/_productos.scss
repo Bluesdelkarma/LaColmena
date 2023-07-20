@@ -1,0 +1,37 @@
+.carrusel-item{
+    color: $white;
+    font-size: $textMd;
+}
+
+.products-home{
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    figure{
+    width: 30%;
+    border: solid 1px $mainColor;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    figcaption{
+        color: $secondaryColor;
+    font-size: $textLight;
+    }
+    button{
+    border: none;
+    background-color: $secondaryColor;
+    padding: 6px;
+    color: $white;
+    border-radius: 4px;
+    &:hover{
+        cursor: pointer;
+        background-color: $mainColor;
+            }
+        }
+    }
+    }

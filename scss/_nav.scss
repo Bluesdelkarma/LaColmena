@@ -1,0 +1,10 @@
+//nesting - anidacion
+.botonera{
+    background-color: $mainColor;
+    a{
+        color: $white;
+    }
+    img{
+        width: 150px;
+    }
+}
